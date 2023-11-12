@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.navBar {
+  background-color: rgb(18, 18, 18);
+  font-size: 45px;
+  height: 70px;
+}
+
+a {
+  background-color: rgb(245, 197, 24);
+  color: rgb(0, 0, 0);
+  font: 25px Impact, sans-serif;
+  text-decoration: unset;
+  padding: 5px 5%;
+  margin: 15px;
+}
+
+.browsingTitle {
+  color: white;
+  font-size: 60px;
+}
+
+.watchlistTitle {
+  color: white;
+  font-size: 60px;
+}
+
+.watchlistMovies {
+  margin: 20px;
+  display: inline-block;
+  color: white;
+  border: 2px solid #363434;
+}
+
+.myimg {
+  max-width: 100%;
+  height: 400px;
+  border: 2px solid #363434;
+}
+
+.deleteButton {
+  background-color: #f4511e;
+  border: 0.5px solid rgb(97, 76, 76);
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  opacity: 1;
+}
+
+.searchedMovie {
+  color: white;
+}
+
+.home {
+  font-size: 20px;
+  color: white;
+  width: 100%;
+}
+
+.i1 {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.i2 {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.addToFav {
+  background-color: #f4511e;
+  border: 0.5px solid rgb(97, 76, 76);
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.addToFav:hover {
+  opacity: 1;
+}
+.backToSearch {
+  background-color: #f4511e;
+  border: 0.5px solid rgb(97, 76, 76);
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.backToSearch:hover {
+  opacity: 1;
+}
+
+.submitButton {
+  background-color: #f4511e;
+  border: 0.5px solid rgb(97, 76, 76);
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  opacity: 1;
+}
