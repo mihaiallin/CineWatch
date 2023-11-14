@@ -1,4 +1,4 @@
-# MovieSearch
+# CineWatch
 Movie searching website.
 
 # Setup Instructions
